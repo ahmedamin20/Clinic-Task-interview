@@ -17,10 +17,10 @@ const PartnersView = ({ logos, onClickImage, open, filter, data }) => {
         <div className="flex lg:justify-between gap-12 lg:gap-0 w-full px-4 lg:animate-none">
           <Marquee
             speed={80}
-            className="rounded-lg"
+            className="rounded-lg p-[5rem] bg-gray-100"
             autoFill
-            gradient={true}
-            gradientWidth={150}
+            // gradient={true}
+            // gradientWidth={150}
             pauseOnHover
           >
             {logos.map((logo) => (
